@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>some title here</title>
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body style="height: 80vh">
+    <nav class="navbar" data-page="index">
+        <!-- <h2 class="navbar-header"><a href="./index.html">Sezai Emre Konuk</a></h2> -->
+        <div class="navbar-link-wrapper">
+            <ul>
+                <li class="nav-item"><a href="./index.html">Index.html</a></li>
+                <li class="nav-item"><a href="./about.html">About.html</a></li>
+                <!-- <li class="nav-item"><a href="./projects.html">Projects.html</a></li>
+                <li class="nav-item"><a href="./skills.html">Skills.html</a></li> -->
+            </ul>
+        </div>
+    </nav>
+    <div class="image-name-link-wrapper">
+        <div class="image">
+            <img src="./src/img/sezaiemrekonuk.jpg" alt="Sezai Emre Konuk">
+        </div> 
+        <div class="name">
+            <span class="name-inner"><span class="sezai" data-index="true">Sezai</span> <span class="emre" data-index="true">Emre</span> <span class="konuk" data-index="true">Konuk</span></span>
+            <div class="activities">I'm a <span class="auto-type"></span></div>
+        </div>
+        <div class="links">
+            <ul>
+                <li>
+                    <a href="https://github.com/sezaiemrekonuk" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/sezaiemrekonuk/" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/sezaiemrekonuk" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/@SezaiKonuk" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./src/js/inlwrapper.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        setTimeout(() => {
+            var typer = new Typed(".auto-type", {
+                strings: ["Human", "Student", "Developer", "Musician"],
+                typeSpeed: 150,
+                backSpeed: 50,
+                loop: true
+            })
+        }, 850)
+    </script>
+</body>
+</html>

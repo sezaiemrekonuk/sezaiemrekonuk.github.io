@@ -1,0 +1,33 @@
+.about-wrapper {
+  padding: 1rem 6rem;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.about-wrapper h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.about-wrapper .about-item {
+  width: 50%;
+  padding: 1rem 1.2rem;
+}
+.about-wrapper .about-item ul li {
+  list-style: disc;
+}
+
+@media screen and (max-width: 1100px) {
+  .about-wrapper {
+    transform: translateX(2.3rem);
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 3rem;
+  }
+  .about-wrapper .about-item {
+    padding: 1rem;
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */
